@@ -1,11 +1,11 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Application.Queries.GetBookByAuthor;
+using Application.Queries.GetBookByISBN;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WebApi.Controllers
 {
-   
+
 [ApiController]
 [Route("api")]
 public class ApiController : ControllerBase
@@ -19,9 +19,9 @@ public class ApiController : ControllerBase
     }
 
     [HttpGet("GetBookByISBN")]
-    public async Task<IActionResult> GetBookByISBN(long ISBN, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetBookByISBN(string ISBN, CancellationToken cancellationToken)
     {
-        var result = await _mediator.Send(new GetBookQuery
+        var result = await _mediator.Send(new GetBookByISBNQuery
         {
             ISBN = ISBN
         }, cancellationToken);
@@ -34,11 +34,11 @@ public class ApiController : ControllerBase
     }
 
     [HttpGet("GetBookByAuthor")]
-    public async Task<IActionResult> GetBookByAuthor(string Author, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetBookByAuthor(string authorName, CancellationToken cancellationToken)
     {
-        var result = await _mediator.Send(new GetBookQuery
+        var result = await _mediator.Send(new GetBookByAuthorQuery
         {
-            ISBN = ISBN
+            AuthorName = authorName
         }, cancellationToken);
 
         _logger.LogInformation("Searching Book");
