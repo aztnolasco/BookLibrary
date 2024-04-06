@@ -3,10 +3,10 @@ namespace Application.Shared.Models.Enums;
 public enum CategoryEnum
 {
     Fiction,
-    Non-Fiction,
+    NonFiction,
     Biography,
     Mystery,
-    Sci-Fi,
+    SciFi,
     
 
 }

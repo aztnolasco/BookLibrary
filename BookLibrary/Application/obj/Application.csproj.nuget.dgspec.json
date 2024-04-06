@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {}
+    "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {}
   },
   "projects": {
-    "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {
+    "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
+        "projectUniqueName": "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
+        "projectPath": "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Git\\BookLibrary\\BookLibrary\\Application\\obj\\",
+        "outputPath": "d:\\Git\\BookLibrary\\BookLibrary\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -56,6 +56,10 @@
               "version": "[8.0.3, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.3, )"
             },
