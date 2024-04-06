@@ -5,6 +5,6 @@ namespace Application.Shared.Interfaces;
 
 public interface IBookRepository
 {
-    Task<Book> GetBookByAuthorAsync(string authorName, CancellationToken cancellationToken);
-    Task<Book> GetBookByISBNAsync(string iSBN, CancellationToken cancellationToken);
+    Task<List<Book>> GetBookByAuthorAsync(string authorName, CancellationToken cancellationToken);
+    Task<List<Book>> GetBookByISBNAsync(string ISBN, CancellationToken cancellationToken);
 }
