@@ -1,3 +1,5 @@
+using Application.Shared.Models.Enums;
+
 namespace Application.Shared.Models;
 
 public class Book

@@ -4,3 +4,10 @@ d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\Application.Assembly
 d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\Application.AssemblyInfo.cs
 d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\Application.csproj.CoreCompileInputs.cache
 d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\Application.sourcelink.json
+D:\Git\BookLibrary\BookLibrary\Application\bin\Debug\net8.0\Application.deps.json
+d:\Git\BookLibrary\BookLibrary\Application\bin\Debug\net8.0\Application.dll
+d:\Git\BookLibrary\BookLibrary\Application\bin\Debug\net8.0\Application.pdb
+d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\Application.dll
+d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\refint\Application.dll
+d:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\Application.pdb
+D:\Git\BookLibrary\BookLibrary\Application\obj\Debug\net8.0\ref\Application.dll
