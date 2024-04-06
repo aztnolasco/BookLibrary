@@ -9,12 +9,10 @@ namespace Application.Shared.Repositories;
 
 public class BookRepository : IBookRepository
 {
-    private readonly BookContext _context;
     private readonly IDbConnection _dbConnection;
 
     public BookRepository(BookContext context)
     {
-      _context = context;
       _dbConnection = context.Database.GetDbConnection();
       
     }

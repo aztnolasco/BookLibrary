@@ -10,7 +10,7 @@ public static class ContextExtensions
 {
     public static IServiceCollection AddContext(this IServiceCollection services, IConfiguration config)
     {
-        var connectionString = config.GetConnectionString("connectionStringSqlServer");
+        var connectionString = config.GetConnectionString("sqlServer");
 
         services.AddDbContext<BookContext>(options =>
         {
