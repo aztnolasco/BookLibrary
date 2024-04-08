@@ -15,12 +15,12 @@ This is the backend of a technical interview process
 
 <h3>Executing</h3>
 <ull>
-  <li>Open a CLI or Vs code and execute</li>
+  <li>Open a CLI or Vs code inside the project and execute</li>
 </ull>
 
 ```
   docker-compose up --build
-   dotnet run --project WebApi\WebApi.csproj
+  dotnet run --project WebApi\WebApi.csproj
 ```
 <ull>
   <li>Navigate to http://localhost:5034/swagger/index.html</li>
