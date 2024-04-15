@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {}
+    "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {}
   },
   "projects": {
-    "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {
+    "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "d:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
+        "projectPath": "D:\\Git\\BookLibrary\\BookLibrary\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "d:\\Git\\BookLibrary\\BookLibrary\\Application\\obj\\",
+        "outputPath": "D:\\Git\\BookLibrary\\BookLibrary\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config"

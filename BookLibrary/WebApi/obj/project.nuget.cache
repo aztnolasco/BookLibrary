@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hMjZ7fS3QwPfdUUPPGTcF/RX4XX/9Rdyx7uwgvqSqpD1Qt3f4fI+DEr9MZ7hFutwCpSD4tSJlwzyL/OF3sGbYA==",
+  "dgSpecHash": "qogfGINxx0XgEsDCj8hWtm4XrOGfHr+uaMFQOIV1mnY+wM6MvKdlupHY8pSyQ0NHz/Ql+FlVkhaAcZGyrjA7aw==",
   "success": true,
-  "projectFilePath": "d:\\Git\\BookLibrary\\BookLibrary\\WebApi\\WebApi.csproj",
+  "projectFilePath": "D:\\Git\\BookLibrary\\BookLibrary\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
