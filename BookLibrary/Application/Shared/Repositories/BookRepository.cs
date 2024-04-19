@@ -17,18 +17,18 @@ public class BookRepository : IBookRepository
       
     }
     
-    public async Task<List<Book>> GetBookByAuthorAsync(string authorName, CancellationToken cancellationToken)
+    public async Task<Book> GetBookByAuthorAsync(string authorName, CancellationToken cancellationToken)
     {
-        string query = $"SELECT * FROM BOOKS B WHERE B.FIRSTNAME LIKE {authorName}";
+        string query = $"SELECT * FROM BOOKS B WHERE B.first_name LIKE ('{authorName}')";
         var result = await _dbConnection.QueryAsync<Book>(query, cancellationToken);
-        return result.ToList();
+        return result.FirstOrDefault();
     }
 
-    public async Task<List<Book>> GetBookByISBNAsync(string ISBN, CancellationToken cancellationToken)
+    public async Task<Book> GetBookByISBNAsync(long ISBN, CancellationToken cancellationToken)
     {
-        string query = $"SELECT * FROM BOOKS B WHERE B.ISBN = {ISBN}";
+        string query = $"SELECT * FROM BOOKS B WHERE CONVERT(BIGINT, B.ISBN)= {ISBN}";
         var result = await _dbConnection.QueryAsync<Book>(query, cancellationToken);
-        return result.ToList();
+        return result.FirstOrDefault();
     }
 
 }

@@ -5,5 +5,5 @@ namespace Application.Queries.GetBookByISBN;
 
 public class GetBookByISBNQueryResult
 {
-    public  List<Book> Book { get; set; }
+    public  Book Book { get; set; }
 }

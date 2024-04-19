@@ -19,7 +19,7 @@ public class ApiController : ControllerBase
     }
 
     [HttpGet("GetBookByISBN")]
-    public async Task<IActionResult> GetBookByISBN(string ISBN, CancellationToken cancellationToken)
+    public async Task<IActionResult> GetBookByISBN(long ISBN, CancellationToken cancellationToken)
     {
         var result = await _mediator.Send(new GetBookByISBNQuery
         {
